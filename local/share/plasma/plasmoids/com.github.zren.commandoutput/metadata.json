@@ -1,0 +1,27 @@
+{
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "zrenfire@gmail.com",
+				"Name": "Chris Holland"
+			}
+		],
+		"Category": "System Information",
+		"Description": "Run a command periodically and render its output.",
+		"Description[fr]": "Exécute une commande périodiquement et affiche son retour.",
+		"Description[nl]": "Voer een opdracht periodiek uit en toon de uitvoer ervan.",
+		"Icon": "utilities-terminal",
+		"Id": "com.github.zren.commandoutput",
+		"License": "GPL-2.0+",
+		"Name": "Command Output",
+		"Name[fr]": "Command Output",
+		"Name[nl]": "Opdrachtuitvoer",
+		"ServiceTypes": [
+			"Plasma/Applet"
+		],
+		"Version": "12",
+		"Website": "https://github.com/Zren/plasma-applet-commandoutput"
+	},
+	"X-Plasma-API": "declarativeappletscript",
+	"X-Plasma-MainScript": "ui/main.qml"
+}

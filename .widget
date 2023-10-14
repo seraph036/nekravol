@@ -1,0 +1,10 @@
+### --- Arch Linux --- ###
+
+kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel
+upd=$(checkupdates | wc -l); White='\033[0;97m'; NC='\033[0m'; printf " ${White}$upd${NC} "
+
+### --- Debian --- ###
+
+kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel #d20f39
+upd=$(apt list --upgradeable 2>/dev/null | cut -d/ -f1 | grep -v Listing | wc -l); White='\033[0;97m'; NC='\033[0m'; printf " ${White}$upd${NC} "
+

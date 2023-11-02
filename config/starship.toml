@@ -178,8 +178,8 @@ format = '\[[ $duration]($style)\]'
 style = '#ff89b8'
 
 [memory_usage]
-format = '\[$symbol[${ram}( | ${swap})]($style)\]'
-threshold = 70
+format = '\[󰍛 [${ram}( | ${swap})]($style)\]'
+threshold = 50
 style = "bold dimmed white"
 disabled = false
 

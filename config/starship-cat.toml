@@ -175,7 +175,7 @@ style = "bold red"
 [cmd_duration]
 min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
 format = '\[[ $duration]($style)\]'
-style = '#f99d51'
+style = '#ff89b8'
 
 [memory_usage]
 format = '\[󰍛 [${ram}( | 󱁋 ${swap})]($style)\]'
@@ -209,8 +209,8 @@ format = '\[   [$path]($style) \]'
 [custom.arch]
 when = true
 command = 'echo ""'
-format = '[[ $output  ](bg:#201f20 fg:#f9af26)]($style)'
-style = "fg:#f9af26 bg:#201f20"
+format = '[[ $output  ](bg:#1e1e2e fg:#3daee9)]($style)'
+style = "fg:#3daee9 bg:#1e1e2e"
 disabled = false
 
 ################################################################################
@@ -219,7 +219,7 @@ disabled = false
 [git_branch]
 format = '\[[$symbol$branch]($style)\] '
 symbol = '  -> '
-style = "#5ab1b4"
+style = "#cba6f7"
 
 [git_state]
 format = '\[[\($state( $progress_current of $progress_total)\)]($style)\]'
@@ -236,7 +236,7 @@ staged = "🗃️ ${count} "
 renamed = "󰑕 ${count} "
 deleted = "󱂦 ${count} "
 format = '\[ : [$all_status$ahead_behind]($style)\]'
-style = "bold #82b0ae"
+style = "bold #94e2d5"
 
 [git_commit]
 commit_hash_length = 8

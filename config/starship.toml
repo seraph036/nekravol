@@ -96,7 +96,7 @@ $character\
 
 [character]
 success_symbol = '[ λ](bold blue) '
-error_symbol = '[󰍴 λ](bold red) '
+error_symbol = '[󰍴 ε](bold red) '
 
 [custom.git_server]
 #disabled = true
@@ -180,7 +180,7 @@ style = '#f99d51'
 [memory_usage]
 format = '\[󰍛 [${ram}( | 󱁋 ${swap})]($style)\]'
 threshold = 45
-style = "bold dimmed white"
+style = "$FFFFFF"
 disabled = false
 
 [time]

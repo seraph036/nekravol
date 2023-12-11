@@ -91,7 +91,7 @@ $character\
 """
 
 ################################################################################
-## Custom Commands
+## Custom Commandsf9af26
 ################################################################################
 
 [character]
@@ -174,8 +174,9 @@ style = "bold red"
 
 [cmd_duration]
 min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
-format = '\[[ $duration]($style)\]'
-style = '#f99d51'
+format = ' \[[ $duration]($style)\]'
+style = '#f9af26'
+#style = '#f99d51'
 
 [memory_usage]
 format = '\[󰍛 [${ram}( | 󱁋 ${swap})]($style)\]'
@@ -219,7 +220,7 @@ disabled = false
 [git_branch]
 format = '\[[$symbol$branch]($style)\] '
 symbol = '  -> '
-style = "#5ab1b4"
+style = "#f9af26"
 
 [git_state]
 format = '\[[\($state( $progress_current of $progress_total)\)]($style)\]'
@@ -232,11 +233,12 @@ diverged = "󰺴   ${ahead_count} &  ${behind_count} "
 untracked = "󰩋 ${count} "
 stashed = "󱋡 "
 modified = " ${count} "
-staged = "🗃️ ${count} "
+staged = "🗃️${count} "
 renamed = "󰑕 ${count} "
 deleted = "󱂦 ${count} "
 format = '\[ : [$all_status$ahead_behind]($style)\]'
-style = "bold #82b0ae"
+style = "bold #f9af26"
+#style = "bold #82b0ae"
 
 [git_commit]
 commit_hash_length = 8

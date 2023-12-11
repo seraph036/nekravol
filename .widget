@@ -1,6 +1,6 @@
 ### --- Arch Linux --- ###
 
-kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel
+kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel (catppuccin = #3daee9; oddfish = #f9af26)
 upd=$(checkupdates | wc -l); White='\033[0;97m'; NC='\033[0m'; printf " ${White}$upd${NC} "
 
 ### --- Debian --- ###

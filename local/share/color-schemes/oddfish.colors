@@ -103,8 +103,8 @@ ForegroundPositive=85,255,255
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Monochrome
-Name=Chromatic
+ColorScheme=oddfish
+Name=oddfish
 TitlebarIsAccentColored=true
 shadeSortColumn=true
 

@@ -14,9 +14,6 @@ $shlvl\
 $singularity\
 $kubernetes\
 $directory\
-$vcsh\
-$fossil_branch\
-${custom.git_server}\
 $git_branch\
 $git_status\
 $git_commit\
@@ -174,7 +171,7 @@ style = "bold red"
 
 [cmd_duration]
 min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
-format = ' \[[ $duration]($style)\]'
+format = '\[[ $duration]($style)\] '
 style = '#f9af26'
 #style = '#f99d51'
 
@@ -205,7 +202,7 @@ disabled = true
 [directory]
 truncation_length = 5
 style = "bold gray"
-format = '\[   [$path]($style) \]'
+format = '\[   [$path]($style) \] '
 
 [custom.arch]
 when = true
@@ -236,7 +233,7 @@ modified = " ${count} "
 staged = "🗃️${count} "
 renamed = "󰑕 ${count} "
 deleted = "󱂦 ${count} "
-format = '\[ : [$all_status$ahead_behind]($style)\]'
+format = '\[ : [$all_status$ahead_behind]($style)\] '
 style = "bold #f9af26"
 #style = "bold #82b0ae"
 

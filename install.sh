@@ -32,4 +32,4 @@ cp -rvf usr/share/fonts/* /usr/share/fonts/
 
 cp -rvf .widget ~/
 
-echo "Done! Enjoy your new oddfish config!"
+echo "Done! Now apply the theme in the Plasma settings app and enjoy your new oddfish config!"

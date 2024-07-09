@@ -31,10 +31,14 @@
             "type": "kernel",
             "key": ""
         },
-	{
-	    "type": "cpu",
-	    "key": ""
-	},
+        {
+            "type": "cpu",
+            "key": ""
+        },
+        {
+            "type": "gpu",
+            "key": "󰨇"
+        },
         {
             "type": "memory",
             "key": ""
@@ -42,10 +46,11 @@
         {
             "type": "packages",
             "key": "󰏖"
-        },
-        {
-            "type": "uptime",
-            "key": "󰮭"
         }
+        //},
+        //{
+        //    "type": "uptime",
+        //    "key": "󰮭"
+        //}
     ]
 }

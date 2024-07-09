@@ -1,5 +1,5 @@
 function fish_greeting
 printf "\n"
-fastfetch
+fastfetch --cpu-temp --gpu-temp
 printf "\n"
 end

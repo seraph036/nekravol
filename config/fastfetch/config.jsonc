@@ -38,7 +38,8 @@
         {
             "type": "gpu",
             "key": "󰨇",
-	    "format": "{1} {2} @ {12} GHz - {#green}{4}{#}"
+	    //"format": "{1} {2} @ {12} GHz - {#green}{4}{#}"
+	    "format": "{1} {2}"
         },
         {
             "type": "memory",

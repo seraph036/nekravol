@@ -1,34 +1,19 @@
 #!/bin/bash
 
 echo "Careful! This may overwrite your existing files. Back up your configs before proceeding!"
-read -p "Press Enter to continue" </dev/tty
+read -p "Are you sure? (y/n) " -n 2 -r
+echo    # Move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    echo "Operation cancelled."
+    exit 1
+fi
 
 cp -rvf config/* ~/.config/
 
-[ -e ~/.local/share/applications ] || mkdir -pv ~/.local/share/applications
-cp -rvf local/share/applications/* ~/.local/share/applications/
+cp -rvf local/* ~/.local/
 
-[ -e ~/.local/share/color-schemes ] || mkdir -pv ~/.local/share/color-schemes
-cp -rvf local/share/color-schemes/* ~/.local/share/color-schemes/
-
-cp -rvf local/share/icon ~/.local/share/
-
-[ -e ~/.local/share/konsole ] || mkdir -pv ~/.local/share/konsole
-cp -rvf local/share/konsole/* ~/.local/share/konsole/
-
-[ -e ~/.local/share/plasma/look-and-feel ] || mkdir -pv ~/.local/share/plasma/look-and-feel
-cp -rvf local/share/plasma/look-and-feel/* ~/.local/share/plasma/look-and-feel/
-
-[ -e ~/.local/share/wallpapers ] || mkdir -pv ~/.local/share/wallpapers
-cp -rvf local/share/wallpapers/* ~/.local/share/wallpapers/
-
-mkdir -pv ~/.local/exports
-cp -rvf local/exports/* ~/.local/exports/
-
-mkdir -pv ~/.local/bin
-cp -rvf local/bin/* ~/.local/bin/
-
-cp -rvf usr/share/fonts/* /usr/share/fonts/
+sudo cp -rvf usr/share/fonts/* /usr/share/fonts/
 
 cp -rvf .widget ~/
 

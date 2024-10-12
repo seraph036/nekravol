@@ -1,0 +1,2 @@
+local/bin/yuzu-mainline.AppImage filter=lfs diff=lfs merge=lfs -text
+local/bin/LegacyLauncher_legacy.jar filter=lfs diff=lfs merge=lfs -text

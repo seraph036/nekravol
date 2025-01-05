@@ -34,6 +34,7 @@
           - cups
           - hplip
           - steam
+          - lutris
           - wine
           - lib32-mesa
           - vulkan-radeon
@@ -41,10 +42,9 @@
           - vulkan-icd-loader
           - lib32-vulkan-icd-loader
           - libva-mesa-driver
-          - mesa-vdpau
-          - libva-vdpau-driver
           - libvdpau-va-gl
-          - phonon-qt5-vlc
+          - libvdpau
+          - phonon-qt6-vlc
           - gstreamer-vaapi
           - gst-plugins-good
           - gst-plugins-bad
@@ -71,6 +71,11 @@
           - tlp
           - tlp-rdw
           - git
+          - gimp
+          - krita
+          - java-runtime-common
+          - jre-openjdk
+          - partitionmanager
         state: present
     - name: Enable systemd services
         command:
@@ -94,7 +99,7 @@
       args:
         chdir: /home/alexandre/Downloads/paru-bin
     - name: Install AUR packages
-      command: paru -S onlyoffice-bin tlpui upscayl-bin
+      command: paru -S onlyoffice-bin tlpui upscayl-appimage lime3ds-appimage
       become: yes
       become_user: alexandre
       args:

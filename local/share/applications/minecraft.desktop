@@ -1,6 +1,6 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
-Categories=Games
+Categories=Game
 Comment[en_GB]=Play Minecraft
 Comment=Play Minecraft
 Exec=java -jar /home/alexandre/.local/bin/LegacyLauncher_legacy.jar

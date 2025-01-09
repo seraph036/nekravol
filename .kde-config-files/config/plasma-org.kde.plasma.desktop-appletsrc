@@ -26,7 +26,7 @@ PreviewImage=/home/alexandre/.local/share/wallpapers/oddfish-rose.png
 SlidePaths=/home/alexandre/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/alexandre/.local/share/wallpapers/oddsystem.png
+Image=file:///home/alexandre/.local/share/wallpapers/oddpunk.png
 SlideInterval=240
 SlidePaths=/home/alexandre/.local/share/wallpapers/
 
@@ -42,6 +42,10 @@ wallpaperplugin=org.kde.image
 [Containments][2][Applets][21]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][2][Applets][21][Configuration]
+popupHeight=450
+popupWidth=490
 
 [Containments][2][Applets][22]
 immutability=1
@@ -126,7 +130,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=65
+PreloadWeight=90
 SystrayContainmentId=8
 
 [Containments][2][General]
@@ -171,7 +175,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][8][Applets][15][Configuration]
-PreloadWeight=55
+PreloadWeight=75
 
 [Containments][8][Applets][16]
 immutability=1
@@ -182,7 +186,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][8][Applets][17][Configuration][General]
 migrated=true
@@ -199,30 +203,36 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][8][Applets][20][Configuration]
+PreloadWeight=65
+
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][8][Applets][23][Configuration]
+PreloadWeight=55
 
 [Containments][8][Applets][24]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=54
+PreloadWeight=0
 
 [Containments][8][Applets][25]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][25][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 
 [Containments][8][Applets][26]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][26][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][8][Applets][9]
 immutability=1

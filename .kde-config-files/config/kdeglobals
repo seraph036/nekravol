@@ -105,8 +105,8 @@ ForegroundPositive=85,255,255
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=816,582
-History Items[$e]=file:$HOME/Downloads,file:$HOME/.local/share/wallpapers,file:///SSD,file:///HDD,http://ssd/,file:$HOME/SSD,file:$HOME/HD,file:$HOME/HD/SteamLibrary
+DirSelectDialog Size=958,1007
+History Items[$e]=file:///HDD/Music/,file:///HDD,http://music/Katatonia/,http://music/,file:///HDD/Soulseek/comp,file:///HDD/Soulseek/incomp,file:$HOME/Downloads/soulseek,file:$HOME/Downloads,file:$HOME/.local/share/wallpapers,file:///SSD,http://ssd/,file:$HOME/SSD,file:$HOME/HD,file:$HOME/HD/SteamLibrary
 
 [General]
 ColorSchemeHash=e35b4ffc98bf705514de390f3f5bc298380fe73f

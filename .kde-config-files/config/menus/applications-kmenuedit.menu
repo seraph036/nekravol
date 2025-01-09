@@ -39,6 +39,10 @@
    <Filename>libreoffice-draw.desktop</Filename>
   </Exclude>
  </Menu>
+ <Menu>
+  <Name>wine-wine</Name>
+  <Deleted/>
+ </Menu>
  <Layout>
   <Merge type="menus"/>
   <Menuname>Development</Menuname>
@@ -54,7 +58,7 @@
   <Menuname>Utilities</Menuname>
  </Layout>
  <Menu>
-  <Name>wine-wine</Name>
+  <Name>Waydroid</Name>
   <Deleted/>
  </Menu>
 </Menu>

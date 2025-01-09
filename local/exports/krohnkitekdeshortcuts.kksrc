@@ -19,17 +19,17 @@ open-profile-manager=
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
-decrease_volume=Volume Down
+decrease_volume=Meta+Shift+M; Volume Down
 decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
-increase_volume=Volume Up
+increase_volume=Volume Up; Meta+Shift+O
 increase_volume_small=Shift+Volume Up
-mic_mute=Meta+Volume Mute; Microphone Mute
+mic_mute=Microphone Mute; Meta+Volume Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Screensaver; Meta+Alt+L
+Lock Session=Meta+Alt+L; Screensaver
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 LogOut=
@@ -45,7 +45,7 @@ Cycle Overview Opposite=
 Decrease Opacity=
 Edit Tiles=Meta+T
 Expose=Ctrl+F9
-ExposeAll=Launch (C); Ctrl+F10
+ExposeAll=Ctrl+F10; Launch (C)
 ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Grid View=Meta+G
@@ -224,17 +224,17 @@ Window to Screen 5=
 Window to Screen 6=
 Window to Screen 7=
 view_actual_size=Meta+0
-view_zoom_in=Meta+=; Meta++
+view_zoom_in=Meta++; Meta+=
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
-mediavolumedown=Meta+Shift+O
-mediavolumeup=Meta+Shift+M
-nextmedia=Media Next; Meta+Shift+N
+mediavolumedown=
+mediavolumeup=
+nextmedia=Meta+Shift+N; Media Next
 pausemedia=Media Pause
 playmedia=
-playpausemedia=Meta+Shift+Q; Media Play
-previousmedia=Meta+Shift+Ç; Media Previous
+playpausemedia=Media Play; Meta+Shift+Q
+previousmedia=Media Previous; Meta+Shift+Ç
 stopmedia=Media Stop
 
 [net.local.systemctl-2.desktop][Global Shortcuts]
@@ -249,17 +249,17 @@ _launch=Meta+E
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
-_launch=Ctrl+Alt+T; Meta+Return
+_launch=Meta+Return; Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Meta+D; Alt+F2
+_launch=Alt+F2; Meta+D
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+>; Meta+Ctrl+Alt+Shift+Space
 
 [plasmashell][Global Shortcuts]
-activate application launcher=Alt+F1; Meta
+activate application launcher=Meta; Alt+F1
 activate task manager entry 1=
 activate task manager entry 10=
 activate task manager entry 2=

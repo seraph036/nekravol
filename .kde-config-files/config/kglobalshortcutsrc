@@ -288,7 +288,7 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][firefox.desktop]
+[services][waterfox.desktop]
 _launch=Meta+F
 
 [services][net.local.systemctl-2.desktop]

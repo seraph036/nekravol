@@ -8,5 +8,5 @@ My take on a fun theme collection for KDE Plasma, with the custom colourscheme, 
 
 
 
-Also checkout my Firefox theme, oddfish:
+Also checkout the Firefox theme:
 https://addons.mozilla.org/en-US/firefox/addon/oddfish

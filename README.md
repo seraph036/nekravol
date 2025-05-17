@@ -1,4 +1,4 @@
-## nekravol
+## oddfish
 
 My take on a fun theme collection for KDE Plasma, with the custom colourscheme, "oddfish", that I made. Hope you like it and have as much fun using it as I had making it.
 
